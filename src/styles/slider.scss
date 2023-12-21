@@ -1,0 +1,73 @@
+.slick-next {
+  width: 52px;
+  height: 52px;
+  background: url(../img/partnext.png) !important;
+
+  &:hover {
+    background: url(../img/partnext.png);
+  }
+}
+.slick-prev {
+  width: 52px;
+  height: 52px;
+  background: url(../img/partnext.png) !important;
+  // transform: rotate(0deg 180deg);
+  rotate: 180deg;
+
+  &:hover {
+    background: url(../img/partnext.png);
+  }
+}
+.slick-next,
+.slick-prev {
+  &::before {
+    display: none;
+  }
+}
+.slick-arrow {
+  width: 52px;
+  height: 52px;
+}
+.slick-disabled {
+  opacity: 0.5;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+.slick-list {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+// spiper js
+
+.swiper-pagination-bullet {
+  width: 11.2rem;
+  height: 4px;
+  border-radius: 0;
+  opacity: 1;
+  background-color: #fff;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-brand--1);
+}
+
+.swiper-pagination {
+  margin-bottom: 5.8rem;
+}
+.slick-slide{
+  text-align: center;
+}
+@media only screen and (max-width:600px){
+.slick-next{
+  margin-right: 15px;
+  
+}
+.slick-prev{
+  margin-left: 10px;
+}
+
+}

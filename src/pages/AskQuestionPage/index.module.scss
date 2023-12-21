@@ -1,0 +1,106 @@
+.wrapper {
+  display: grid;
+  place-content: center;
+  padding: 15rem 0;
+
+  .wrapper--form {
+    width: 87rem;
+    box-shadow: 2px 2px 15px black;
+    .wrapper--form__top {
+      background-color: var(--color-brand--2);
+      padding: 2rem 0;
+    }
+  }
+
+  .form {
+    padding: 2.4rem 4rem;
+  }
+
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 1.6rem;
+
+    label {
+      color: var(--color-brand--2, #1d1d1d);
+      font-family: Abhaya Libre ExtraBold;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+    input,
+    textarea {
+      border: 4px solid var(--color-brand--2, #1d1d1d);
+      background: #fff;
+      padding: 1rem;
+      font-family: Abhaya Libre ExtraBold;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    textarea {
+      resize: none;
+      width: 100%;
+      height: 14rem;
+    }
+  }
+
+  .checkbox-wrapper {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    input[type="checkbox"] {
+      box-shadow: 0 0 0 0.3rem hotpink;
+      border-radius: 0;
+    }
+  }
+}
+
+.squaredOne {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  margin: 20px 0;
+  background: #fcfff4;
+  background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+  box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+  label {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    cursor: pointer;
+    background: linear-gradient(top, #222 0%, #45484d 100%);
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5),
+      0px 1px 0px rgba(255, 255, 255, 1);
+    &:after {
+      content: "";
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      background: red;
+      background: linear-gradient(
+        top,
+        rgba(80, 62, 62, 0.489) 0%,
+        rgb(0, 110, 255) 100%
+      );
+      box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+    }
+    &:hover::after {
+      opacity: 0.3;
+    }
+  }
+  input[type="checkbox"] {
+    visibility: hidden;
+    &:checked + label:after {
+      opacity: 1;
+    }
+  }
+}

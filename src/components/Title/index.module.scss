@@ -1,0 +1,12 @@
+.title {
+  display: flex;
+
+  h1 {
+    color: var(--color-brand--2);
+
+    line-height: normal;
+    text-transform: uppercase;
+    width: max-content;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,45 @@
+.list_area{
+  color: var(--color-white);
+  width: 100%;
+  background-color: rgb(194, 194, 194);
+  font-size: 1.2rem;
+}
+.list{
+  width: 100%;
+}
+.item{
+  width: 100%;
+  background-color: var(--color-brand--4);
+    a{
+      color: inherit;
+    }
+}
+.item_button{
+  width: 100%;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  &:hover{
+    background-color: var(--color-brand--3);
+  }
+}
+.active{
+  background-color: var(--color-brand--3);
+}
+.not_active{
+  background-color: var(--color-black);
+}
+.dropdown{
+  background: url(../../img/dropaft.svg);
+  width: 2rem;
+  height: 2rem;
+  transform: rotate(90deg);
+  transition: 0.1s all;
+  cursor: pointer;
+}
+.dropright{
+  @extend .dropdown;
+  transform: rotate(0deg);
+}

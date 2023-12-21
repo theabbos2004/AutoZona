@@ -1,0 +1,75 @@
+{
+    "status": "success",
+    "data": {
+        "result": 11,
+        "title":"categories",
+        "drop": [
+            {
+                "_id": "6534d53264a7854ac72789fe",
+                "title": "ssdfdsffw",
+                "image": "241-1697961266563.png",
+                "created": "2023-10-22T07:54:26.566Z"
+            },
+            {
+                "_id": "6534d498e42a9e92fee35ee6",
+                "title": "ssdfdsff",
+                "image": "598-1697961112735.png",
+                "created": "2023-10-22T07:51:52.749Z"
+            },
+            {
+                "_id": "652fa72ed494c720a66be1bd",
+                "title": "hello world2",
+                "image": "367-1697621805713.jpeg",
+                "created": "2023-10-18T09:36:46.521Z"
+            },
+            {
+                "_id": "652e083139f03516c914089d",
+                "title": "werwer we",
+                "image": "274-1697515569613.jpeg",
+                "created": "2023-10-17T04:06:09.758Z"
+            },
+            {
+                "_id": "652e082e39f03516c914089b",
+                "title": "dfdsf sderwrwersdsdfsdfsd",
+                "image": "961-1697515566471.jpeg",
+                "created": "2023-10-17T04:06:06.615Z"
+            },
+            {
+                "_id": "652e082c39f03516c9140899",
+                "title": "dfdsf sd sdsdfsdfsd",
+                "image": "536-1697515563648.jpeg",
+                "created": "2023-10-17T04:06:04.280Z"
+            },
+            {
+                "_id": "652e082839f03516c9140897",
+                "title": "dfsdfsfsdfsdf",
+                "image": "422-1697515560324.jpeg",
+                "created": "2023-10-17T04:06:00.469Z"
+            },
+            {
+                "_id": "652e082539f03516c9140895",
+                "title": "erwrwerw",
+                "image": "31-1697515557535.jpeg",
+                "created": "2023-10-17T04:05:57.787Z"
+            },
+            {
+                "_id": "652e061e39f03516c914083b",
+                "title": "wqw",
+                "image": "918-1697515038291.jpeg",
+                "created": "2023-10-17T03:57:18.435Z"
+            },
+            {
+                "_id": "652e061939f03516c9140839",
+                "title": "qqq",
+                "image": "213-1697515033615.jpeg",
+                "created": "2023-10-17T03:57:13.965Z"
+            },
+            {
+                "_id": "652e060d39f03516c9140835",
+                "title": "qweqwe",
+                "image": "363-1697515020806.jpeg",
+                "created": "2023-10-17T03:57:01.472Z"
+            }
+        ]
+    }
+}
